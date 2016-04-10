@@ -1,0 +1,28 @@
+// GLOBALS
+.box {
+   width: 80%;
+   margin: 0 auto;
+}
+
+//HEADER & NAV
+header {
+   padding: 20px 0px;
+}
+
+.title {
+   width: 30%;
+   display: inline-block;
+}
+
+nav {
+   display: inline-block;
+}
+
+// UTILITY CLASSES
+.row {
+   display: inline-block;
+}
+
+.row-li {
+   margin-left: 30px;
+}

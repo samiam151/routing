@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+<head>
+   <meta charset="utf8">
+   <title>Routing</title>
+   <link rel="stylesheet" href="styles/reset.css">
+   <link href='https://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="styles/style.css">
+   <script type='text/javascript' src='libs/angular.min.js'></script>
+   <script type='text/javascript' src='libs/angular-ui-router.js'></script>
+</head>
+<body>
+   
+   <!-- HEADER -->
+   <header>
+      <div class="box">
+         <!-- title -->
+         <h1 class='title'>The Corner Store</h1>
+
+         <!-- nav -->
+         <nav>
+            <ul class='row'>
+               <li class='row row-li'><a ui-sref='home'>Home</a></li>
+               <li class='row row-li'><a ui-sref='about'>About</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <!-- VIEW CONTAINER -->
+   <div class='box' ui-view>
+      the view is here
+   </div>
+
+
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="controllers/test.js"></script>
+
+</body>
+
+</html>

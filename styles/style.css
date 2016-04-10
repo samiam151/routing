@@ -1,0 +1,21 @@
+.box {
+  width: 80%;
+  margin: 0 auto; }
+
+header {
+  padding: 20px 0px; }
+
+.title {
+  width: 30%;
+  display: inline-block; }
+
+nav {
+  display: inline-block; }
+
+.row {
+  display: inline-block; }
+
+.row-li {
+  margin-left: 30px; }
+
+/*# sourceMappingURL=style.css.map */
