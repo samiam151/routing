@@ -1,1 +1,18 @@
-<h3>about view</h3>
+<!-- CSS Dependencies -->
+<link rel="stylesheet" href="styles/about/about.css">
+
+<div class="cont">
+   <div class="page-title">
+      <h2><span ng-bind='about.title'></span></h2>
+      <p ng-bind='about.description'></p>
+      <p ng-bind='about.name'></p>
+   </div>
+   <!-- Coffee List -->
+   <ul class='coffeeList'>
+      <li ng-repeat='coffee in about.coffees'>
+         <p>Name: <span ng-bind='coffee.name'></span></p>
+         <p>Strength: <span ng-bind='coffee.strength'></span></p>
+      </li>
+   </ul> <!-- end Coffee list -->
+
+</div>

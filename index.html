@@ -4,7 +4,7 @@
    <meta charset="utf8">
    <title>Routing</title>
    <link rel="stylesheet" href="styles/reset.css">
-   <link href='https://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" href="styles/style.css">
    <script type='text/javascript' src='libs/angular.min.js'></script>
    <script type='text/javascript' src='libs/angular-ui-router.js'></script>
@@ -12,28 +12,17 @@
 <body>
    
    <!-- HEADER -->
-   <header>
-      <div class="box">
-         <!-- title -->
-         <h1 class='title'>The Corner Store</h1>
-
-         <!-- nav -->
-         <nav>
-            <ul class='row'>
-               <li class='row row-li'><a ui-sref='home'>Home</a></li>
-               <li class='row row-li'><a ui-sref='about'>About</a></li>
-            </ul>
-         </nav>
-      </div>
-   </header>
+   <theheader></theheader>
 
    <!-- VIEW CONTAINER -->
-   <div class='box' ui-view></div>
+   <div ui-view class='box' ></div>
 
 
-<script type="text/javascript" src="script.js"></script>
-<script type="text/javascript" src="controllers/test.js"></script>
-
+<!-- <script type="text/javascript" src="app.js"></script> -->
+<script type="text/javascript" src="scripts/routes.js"></script>
+<script type="text/javascript" src="scripts/directives.js"></script>
+<script type="text/javascript" src="scripts/controllers.js"></script>
+<script type="text/javascript" src="scripts/services.js"></script>
 </body>
 
 </html>

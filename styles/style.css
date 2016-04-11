@@ -1,21 +1,39 @@
+* {
+  font-family: 'IM Fell Great Primer', serif; }
+
 .box {
   width: 80%;
   margin: 0 auto; }
 
 header {
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  background-color: #d28b4d; }
 
 .title {
-  width: 30%;
+  color: white;
+  width: 60%;
   display: inline-block; }
 
+.page-title {
+  margin-bottom: 30px; }
+
 nav {
-  display: inline-block; }
+  display: inline-block;
+  width: 39.5%; }
+  nav a:link, nav a:visited {
+    text-decoration: none;
+    color: white; }
+  nav a:hover {
+    color: #f1dbc7; }
+  nav li {
+    font-size: 1.1em; }
 
 .row {
   display: inline-block; }
 
 .row-li {
-  margin-left: 30px; }
+  margin-left: 50px;
+  text-align: right; }
 
 /*# sourceMappingURL=style.css.map */

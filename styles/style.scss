@@ -1,28 +1,69 @@
-// GLOBALS
+//*******************************************
+// Variables
+//*******************************************
+$mocha: #d28b4d;
+
+//*******************************************
+// Globals
+//*******************************************
+* {
+   font-family: 'IM Fell Great Primer', serif;
+}
+
+body {
+   
+}
+
 .box {
    width: 80%;
    margin: 0 auto;
 }
 
-//HEADER & NAV
+//*******************************************
+// Header & Nav
+//*******************************************
 header {
    padding: 20px 0px;
+   margin-bottom: 20px;
+   background-color: $mocha;
 }
 
 .title {
-   width: 30%;
+   color: white;
+   width: 60%;
    display: inline-block;
+}
+
+.page-title {
+   margin-bottom: 30px;
 }
 
 nav {
    display: inline-block;
-}
+   width: 39.5%;
+   a {
+      &:link,
+      &:visited {
+         text-decoration: none;
+         color: lighten($mocha, 50%);
+      }
+      &:hover {
+         color: lighten($mocha, 30%);
+      }
+   }
 
-// UTILITY CLASSES
+   li {
+      font-size: 1.1em;
+   }
+}
+//*******************************************
+// Utility Classes
+//*******************************************
 .row {
    display: inline-block;
 }
 
 .row-li {
-   margin-left: 30px;
+   margin-left: 50px;
+   text-align: right;
 }
